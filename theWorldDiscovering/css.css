@@ -3,6 +3,9 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     background-color: rgb(150, 150, 150);
+    text-align: center;
+    overflow: auto;
+    position: absolute;
 }
 
 
@@ -71,5 +74,24 @@ body{
     border: black 2px solid;
     vertical-align: middle;
     background-color: rgb(186, 202, 202);
+    color: black;
+}
+.itemcontent h2 a{
+    color: black;
+    text-decoration: none;
+
+}
+.presimage{
+    /* width: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.wikiinfo a{
+    color: rgb(172, 27, 27);
+}
+.group{
+    display: block;
+    height: auto;
 }
 

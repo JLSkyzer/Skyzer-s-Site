@@ -65,7 +65,7 @@ body{
     }
 
     .footer{
-        position: absolute;
+        position: relative;
         display: flex;
         width: 100%; 
         height: auto;
@@ -114,7 +114,7 @@ body{
     }
 
     .modlist{
-        width: 100%;
+        width: 95%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -220,7 +220,7 @@ body{
     }
 
     .footer{
-        position: absolute;
+        position: relative;
         display: flex;
         width: 100%; 
         height: auto;
@@ -228,6 +228,7 @@ body{
         background-color: rgb(47, 106, 158);
         flex-wrap: wrap;
         flex-direction: row;
+        /* margin-top: 70vh; */
     }
     .contact{
         display: flex;
@@ -269,7 +270,7 @@ body{
     }
 
     .modlist{
-        width: 100%;
+        width: 95%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -318,6 +319,29 @@ body{
         margin-right: 5px;
         margin-bottom: 5px;
     }
-}
+} /* fin */
+
+
+
+
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: linear-gradient(to bottom, red, blue); 
+    /* #888 */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(to bottom, red, green, blue); 
+  }
 
 
