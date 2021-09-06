@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+}
+body{
+    position: absolute;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+@media screen and (max-width: 720px) {
+    header{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgb(47, 106, 158);
+        justify-content: space-between;
+        padding: 10px;
+        height: auto;
+    }
+    header h2 a{
+        color: white;
+        line-height: 50px;
+        text-decoration: none;
+    }
+    div.nav {
+        position: relative;
+        display: flex;
+        height: 100%;
+        vertical-align: middle;
+        width: auto;
+    }
+    div.nav a{
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        /* margin-left: 1px;
+        margin-right: 1px; */
+        color: white;
+    }
+    .nav a:nth-child(1){
+        width:60px;
+    }.nav a:nth-child(2){
+        width: 75px;
+        border-left: black 2px solid;
+    }.nav a:nth-child(3){
+        width: 75px;
+        border-left: black 2px solid;
+    }
+
+    .yes{
+        background-color: rgb(60, 130, 190);
+    }
+    .no{
+        background-color: rgb(67, 114, 155);
+    }
+    .no:hover{
+        transition: 0.5s;
+        background-color: rgb(99, 136, 168);
+    }
+
+    .footer{
+        position: absolute;
+        display: flex;
+        width: 100%; 
+        height: auto;
+        bottom: 0;
+        background-color: rgb(47, 106, 158);
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border: solid 2px rgb(25, 63, 97);
+        width: auto;
+    }.contact input, .contact textarea, .contact button{
+        margin-top: 5px;
+    }
+    .contact textarea{
+        min-height: 100px;
+        min-width: 200px;
+        max-width: 250px;
+        max-height: 250px;
+        resize: none;
+    }.contact input, .contact button{
+        min-width: 250px;
+        max-width: 250px;
+    }
+
+    .message{
+        display: block;
+        height: auto;
+        padding: 10px;
+        width: 300px;
+        background-color: rgb(197, 196, 196);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+    span.info
+    {
+        color: red;
+    }
+    span.resources, span.services{
+        color: green;
+    }
+
+    .modlist{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .modcontent
+    {
+        padding: 0px;
+        height: auto;
+        width: 350px;
+        border: black 2px solid;
+        text-align: center;
+    }
+    .modcontent p.info{
+        padding: 5px;
+    }
+    .link{
+        display: block;
+        height: 40px;
+        width: 70px;
+        text-decoration: none;
+        background-color: rgb(15, 88, 15);
+        color: white;
+        line-height: 40px;
+    }.link:hover{
+        background-color: rgb(13, 70, 13);
+    }
+    .wikibtn{
+        display: block;
+        height: 40px;
+        width: 70px;
+        text-decoration: none;
+        background-color: rgb(128, 14, 6);
+        color: white;
+        line-height: 40px;
+    }.wikibtn:hover{
+        background-color: rgb(88, 12, 6);
+    }
+    .btnbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+    /* ================================================== */
+
+@media screen and (min-width: 721px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(35, 84, 128);
+        justify-content: space-between;
+        padding: 10px;
+        height: 50px;
+    }
+    header h2 a{
+        color: white;
+        line-height: 50px;
+        text-decoration: none;
+    }
+    div.nav {
+        position: relative;
+        display: flex;
+        height: 100%;
+        vertical-align: middle;
+        width: auto;
+    }
+    div.nav a{
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        /* margin-left: 1px;
+        margin-right: 1px; */
+        color: white;
+    }
+    .nav a:nth-child(1){
+        width:60px;
+    }.nav a:nth-child(2){
+        width: 75px;
+        border-left: black 2px solid;
+    }.nav a:nth-child(3){
+        width: 75px;
+        border-left: black 2px solid;
+    }
+
+    .yes{
+        background-color: rgb(60, 130, 190);
+    }
+    .no{
+        background-color: rgb(67, 114, 155);
+    }
+    .no:hover{
+        transition: 0.5s;
+        background-color: rgb(99, 136, 168);
+    }
+
+    .footer{
+        position: absolute;
+        display: flex;
+        width: 100%; 
+        height: auto;
+        bottom: 0;
+        background-color: rgb(47, 106, 158);
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border: solid 2px rgb(25, 63, 97);
+        width: auto;
+    }.contact input, .contact textarea, .contact button{
+        margin-top: 5px;
+    }
+    .contact textarea{
+        min-height: 100px;
+        min-width: 200px;
+        max-width: 250px;
+        max-height: 250px;
+        resize: none;
+    }.contact input, .contact button{
+        min-width: 250px;
+        max-width: 250px;
+    }
+
+    .message{
+        display: block;
+        height: auto;
+        padding: 10px;
+        width: 500px;
+        background-color: rgb(197, 196, 196);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+    span.info
+    {
+        color: red;
+    }
+    span.resources, span.services{
+        color: green;
+    }
+
+    .modlist{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .modcontent
+    {
+        padding: 0px;
+        height: auto;
+        width: 350px;
+        border: black 2px solid;
+        text-align: center;
+    }
+    .modcontent p.info{
+        padding: 5px;
+    }
+    .link{
+        display: block;
+        height: 40px;
+        width: 70px;
+        text-decoration: none;
+        background-color: rgb(15, 88, 15);
+        color: white;
+        line-height: 40px;
+    }.link:hover{
+        background-color: rgb(13, 70, 13);
+    }
+    .wikibtn{
+        display: block;
+        height: 40px;
+        width: 70px;
+        text-decoration: none;
+        background-color: rgb(128, 14, 6);
+        color: white;
+        line-height: 40px;
+    }.wikibtn:hover{
+        background-color: rgb(88, 12, 6);
+    }
+    .btnbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
