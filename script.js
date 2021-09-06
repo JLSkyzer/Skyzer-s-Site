@@ -14,6 +14,8 @@ function sendMail() {
             alert('mettez votre text !')
         }else{
             window.location.href = link;
+            document.location.reload();
+            alert('message envoyer !')
         }
     } 
 }
