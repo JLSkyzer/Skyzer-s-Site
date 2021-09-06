@@ -15,7 +15,6 @@ function sendMail() {
         }else{
             window.location.href = link;
             document.location.reload();
-            alert('message envoyer !')
         }
     } 
 }
